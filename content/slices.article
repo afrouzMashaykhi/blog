@@ -182,7 +182,7 @@ That behavior has important ramifications.
 
 Consider this simple function:
 
-.code slices/prog010.go /^func/,/^}/
+.code -edit slices/prog010.go /^func/,/^}/
 
 It does just what its name implies, iterating over the indices of a slice
 (using a `for` `range` loop), incrementing its elements.
